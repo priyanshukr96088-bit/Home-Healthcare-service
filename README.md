@@ -1,97 +1,127 @@
 # 🏥 CareAtHome - Instant Doorstep Healthcare & Caregiving Platform
-> **सर्टिफाइड होम नर्स, केयरटेकर एवं फिजियोथेरेपिस्ट — 30 से 45 मिनट में आपके घर पर**
+> **Certified Nurses, Experienced Caretakers & Licensed Physiotherapists — Delivered to Your Doorstep within 30-45 Minutes.**
 
 ---
 
-## 📌 Problem Statement (समस्या एवं समाधान)
-अक्सर मरीज जब गंभीर रूप से बीमार होते हैं, बुजुर्ग होते हैं, सर्जरी के बाद रिकवर कर रहे होते हैं, या लकवा (Stroke) से पीड़ित होते हैं, तो उन्हें अस्पताल तक ले जाना परिवार के लिए अत्यंत कष्टदायक और जोखिम भरा होता है:
-* ट्रैफिक, स्ट्रेचर और अस्पताल की लंबी कतारों की परेशानी।
-* साधारण इंजेक्शन, आईवी ड्रिप या घाव की ड्रेसिंग के लिए एम्बुलेंस का खर्च।
-* बिस्तर पर पड़े (Bedridden) मरीजों की दैनिक देखभाल और पर्सनल हाइजीन की चुनौती।
-* फिजियोथेरेपी के लिए बुजुर्गों का नियमित अस्पताल न जा पाना।
+## 📌 Problem Statement & Solution
 
-**CareAtHome का समाधान:**
-यह प्लेटफॉर्म ऐसे सभी मरीजों के घर पर **Instant On-Demand Nurses, Compassionate Caretakers, और Certified Physiotherapists** सीधे उनके दरवाजे पर (Doorstep) 30-45 मिनट में उपलब्ध कराता है।
+### The Core Problem
+When patients are frail, elderly, bedridden, recovering from major surgery, or recovering from a stroke, traveling to a crowded hospital or clinic poses severe physical strain, expense, and infection risks:
+* Navigating city traffic, ambulance availability, long queues, and stressful hospital OPD environments.
+* Traveling to clinics for minor procedures like IV drips, wound dressings, injections, and catheterization.
+* Managing daily hygiene, mobility, and dignity for bedridden elderly family members at home.
+* Ensuring consistent physiotherapy sessions without the exhausting commute for patients with mobility impairments.
 
----
-
-## ✨ मुख्य फीचर्स (Key Features of the Prototype)
-
-1. **⚡ इंस्टेंट 30-45 मिनट होम डिस्पैच (Instant Booking Wizard)**:
-   - 4-स्टेप आसान बुकिंग फ्लो (सर्विस चयन ➔ मरीज विवरण ➔ विशेषज्ञ का चयन ➔ समय व भुगतान)।
-   - कैश ऑन विजिट (Cash After Service) व यूपीआई (UPI/QR) विकल्प।
-
-2. **🗺️ लाइव डिस्पैच व जीपीएस ट्रैकिंग सिम्युलेटर (Live Tracking Simulation)**:
-   - बुकिंग के तुरंत बाद लाइव ट्रैकिंग स्क्रीन एक्टिव होती है।
-   - ईटीए (ETA) काउंटडाउन (जैसे: 18 मिनट दूर)।
-   - मरीज के पते की ओर मैप रूट सिमुलेशन।
-   - सुरक्षा के लिए **4-Digit Doorstep Security OTP**।
-   - असाइन किए गए नर्स/केयरटेकर से 1-क्लिक कॉल व वॉट्सऐप चैट।
-
-3. **💉 3 प्रमुख स्वास्थ्य सेवाएं (3 Core Service Pillars)**:
-   - **होम नर्सिंग (Home Nursing)**: IV ड्रिप, इंजेक्शन, पोस्ट-सर्जरी ड्रेसिंग, कैथेटर, 12h/24h क्रिटिकल केयर नर्स।
-   - **केयरटेकर व अटेंडेंट (Caretaker & Attendant)**: 12 घंटे डे/नाइट शिफ्ट, 24 घंटे लाइव-इन, बुजुर्गों को नहलाना, डायपर चेंज, खाना खिलाना, डिमेंशिया केयर।
-   - **होम फिजियोथेरेपी (Physiotherapy at Home)**: लकवा (Stroke Rehab), घुटना व कमर दर्द, पोस्ट-फ्रैक्चर रिहैब, पोर्टेबल TENS/IFT मशीन के साथ।
-
-4. **💰 पारदर्शी खर्च कैलकुलेटर (Interactive Cost Calculator)**:
-   - सर्विस, समय (1 घंटा / 12 घंटा / 24 घंटा) और दिनों (1 से 30 दिन) का स्लाइडर।
-   - 7 दिन (8% छूट), 15 दिन (12% छूट), 30 दिन (20% मासिक छूट) का ऑटोमैटिक कैलकुलेशन।
-
-5. **🛡️ 100% सत्यापित प्रोफेशनल्स (Verified Caregiver Directory)**:
-   - अपोलो, मैक्स, फोर्टिस, मेदांता जैसे अस्पतालों का अनुभव।
-   - पुलिस बैकग्राउंड चेक व मेडिकल काउंसिल रजिस्ट्रेशन बैज।
-   - फिल्टर: सभी, नर्स, केयरटेकर, फिजियोथेरेपिस्ट।
-
-6. **📊 डिजिटल पेशेंट वाइटल्स चार्ट (Family Transparency Portal)**:
-   - दूर रहने वाले परिवारजन मरीज के बीपी (BP), ऑक्सीजन (SpO2), पल्स और ब्लड शुगर को लाइव देख सकते हैं।
-   - नर्स द्वारा नया वाइटल्स रिकॉर्ड दर्ज करने का इंटरैक्टिव फॉर्म (`➕ Log New Vitals`)।
-
-7. **🚨 1-क्लिक इमरजेंसी SOS मॉडल**:
-   - तुरंत क्रिटिकल सिचुएशन में 15-20 मिनट में नजदीकी इमरजेंसी नर्स डिस्पैच अलर्ट।
-
-8. **🌐 द्विभाषी सपोर्ट (Bilingual English / हिंदी)**:
-   - हेडर में एक क्लिक से पूरी वेबसाइट को हिंदी या अंग्रेजी में बदलें।
+### The CareAtHome Solution
+**CareAtHome** bridges this healthcare access gap by providing **on-demand, instant doorstep delivery of certified clinical and caregiving professionals**:
+1. **Professional Nurses**: For sterile clinical procedures (injections, IV saline infusions, post-op dressings, catheter care, 12h/24h ICU at home).
+2. **Compassionate Caretakers & Attendants**: For daily hygiene assistance (sponge baths, diaper changes, wheelchair mobility, feeding, dementia care).
+3. **Licensed Physiotherapists**: For home-based stroke rehabilitation, orthopedic therapy (knee & back pain), and mobility restoration using portable electrotherapy equipment (TENS/IFT).
 
 ---
 
-## 🚀 वेबसाइट कैसे चलाएं (How to Run the Website)
+## ✨ Key Features of the Prototype
 
-### तरीका 1: डायरेक्ट ब्राउज़र में खोलें (Zero Setup - 1 सेकंड में)
-1. अपने कंप्यूटर पर फ़ोल्डर `Home HealthCare Service` खोलें।
-2. `index.html` फ़ाइल पर डबल-क्लिक (Double Click) करें।
-3. वेबसाइट तुरंत Google Chrome, Microsoft Edge या किसी भी ब्राउज़र में खुल जाएगी!
+1. **⚡ Instant 30-45 Minute Dispatch & Booking Wizard**:
+   - An intuitive 4-step booking flow:
+     - **Step 1**: Service Category & Specific Procedure selection.
+     - **Step 2**: Patient Information, Health Condition, Address & Landmark.
+     - **Step 3**: Smart Caregiver Matching (view available nearby specialists with badges, hospital background, ratings, and rates).
+     - **Step 4**: Schedule & Payment Confirmation (instant dispatch under 45 mins, Cash on Visit, and UPI/Online options).
 
-### तरीका 2: लोकल सर्वर के साथ (Node.js)
-यदि आप इसे लोकल वेब सर्वर पर चलाना चाहते हैं:
+2. **🗺️ Live GPS Dispatch & Tracking Simulator**:
+   - Immediately activates upon booking confirmation.
+   - Real-time animated status stepper (`Booked` ➔ `Assigned` ➔ `On The Way` ➔ `Doorstep Care`).
+   - Dynamic ETA countdown timer (e.g. *14 mins away*).
+   - Animated route map visualization tracking the specialist towards the patient's home.
+   - **4-Digit Doorstep Security OTP** for patient safety upon arrival.
+   - One-click **Direct Call** and **WhatsApp Chat** buttons to contact the assigned specialist.
+
+3. **💉 3 Core Healthcare Service Pillars**:
+   - **Home Nursing**: IV drip infusion (₹399), post-surgery sterile wound dressing (₹499), urinary catheter care (₹699), 12h day/night shift nurses (₹1,499), 24h critical ICU nurses (₹2,899).
+   - **Elderly Care & Attendant**: 12-hour day/night attendant (₹1,100), 24-hour live-in attendant (₹1,900), bedridden hygiene & sponge bath (₹450), dementia/Alzheimer's companion (₹1,300).
+   - **Physiotherapy at Home**: Orthopedic & joint pain therapy (₹799), stroke & neuro rehabilitation (₹1,199), post-fracture mobility (₹899), elderly gait balance conditioning (₹749).
+
+4. **💰 Interactive Cost Calculator**:
+   - Dynamic calculator with service type, shift duration (per visit, 12-hour, 24-hour), and duration slider (1 to 30 days).
+   - Automatically computes bundled package discounts:
+     - **7-day package**: 8% savings
+     - **15-day package**: 12% savings
+     - **30-day monthly plan**: 20% savings
+   - "Book With This Estimate" button seamlessly transfers calculated rates into the booking modal.
+
+5. **🛡️ Verified Specialists Directory**:
+   - Caregivers with backgrounds from premier healthcare institutions (Apollo, Fortis, Max, Medanta, AIIMS).
+   - Identity verified, police background checked, and medical council registered.
+   - Filterable by: All, Nurses, Caretakers, and Physiotherapists.
+
+6. **📊 Digital Patient Health Chart & Vitals Tracker**:
+   - Provides family members with transparency, even if they are at work or in another city.
+   - Live displays for **Blood Pressure (BP)**, **Pulse Rate**, **Oxygen Saturation (SpO2)**, **Blood Sugar**, and **Body Temperature**.
+   - Interactive `➕ Log New Vitals` modal allowing visiting nurses to record new vitals directly into the patient's record.
+
+7. **🚨 Emergency 1-Click SOS Dispatch**:
+   - Rapid-response modal designed for urgent clinical needs, triggering a priority dispatch alert with estimated 15-20 minute arrival.
+
+8. **🌐 Dual-Language Support (English & Hindi)**:
+   - Header toggle allows instant switching between English and हिंदी across all core UI sections for family accessibility.
+
+---
+
+## 🚀 How to Run the Project
+
+### Option 1: Direct in Browser (Zero Setup - 1 Second)
+1. Open the project folder `Home HealthCare Service` on your computer.
+2. Double-click **`index.html`**.
+3. The platform opens immediately in Google Chrome, Microsoft Edge, or any modern web browser.
+
+### Option 2: Local Development Server (Node.js)
+If you prefer running it through a local HTTP web server:
 ```bash
-# प्रोजेक्ट डायरेक्टरी में जाएं
+# Navigate to project directory
 cd "c:\Users\priyanshu kumar\OneDrive\Desktop\Home HealthCare Service"
 
-# सर्वर शुरू करें
+# Start server
 node server.js
-# या
+# Or
 npm start
 ```
-इसके बाद ब्राउज़र में जाएं: **`http://localhost:3000`**
+Then visit: **`http://localhost:3000`** in your browser.
 
 ---
 
-## 📁 फ़ाइल संरचना (Project Structure)
+## ☁️ Deployment on Vercel
+
+The project is pre-configured with [`vercel.json`](vercel.json) and ready for one-click Vercel deployment:
+
+1. Visit **[vercel.com/new](https://vercel.com/new)**.
+2. Sign in with your GitHub account.
+3. Import the repository: **`priyanshukr96088-bit/Home-Healthcare-service`**.
+4. Click **Deploy**. Vercel will build and assign a permanent live production domain (e.g. `https://home-healthcare-service.vercel.app`) with automatic CI/CD updates on every future `git push`.
+
+---
+
+## 📁 Project Architecture & File Structure
+
 ```
 Home HealthCare Service/
-├── index.html       # मुख्य यूजर इंटरफेस (Tailwind CSS, रिस्पॉन्सिव, मॉडल्स, ट्रैकिंग)
-├── styles.css       # कस्टम एनिमेशन, ग्लासमोर्फिज्म और रडार पिंग इफेक्ट्स
-├── app.js           # जावास्क्रिप्ट लॉजिक (बुकिंग विजार्ड, ट्रैकिंग सिम्युलेटर, कैलकुलेटर, वाइटल्स)
-├── server.js        # लाइटवेट नोड सर्वर (शून्य बाहरी निर्भरता)
-├── package.json     # प्रोजेक्ट मेटाडेटा एवं स्क्रिप्ट्स
-└── README.md        # संपूर्ण गाइड व विवरण
+├── index.html       # Single-Page Application (HTML5, Tailwind CSS, Lucide SVGs, Modals, Responsive Layout)
+├── styles.css       # Custom styles, glassmorphism, radar pulse animations, and typography
+├── app.js           # Core client-side JavaScript engine (State, Booking Flow, Tracking Simulator, Vitals Logger)
+├── server.js        # Zero-dependency Node.js HTTP server for local serving
+├── package.json     # Project metadata and run scripts
+├── vercel.json      # Production deployment configuration for Vercel
+├── .vercelignore    # Files excluded from Vercel production build
+├── .gitignore       # Git exclusion rules
+└── README.md        # Comprehensive English project documentation
 ```
 
 ---
 
-## 💡 क्लाइंट या इन्वेस्टर को क्या दिखाएं (Demo Highlights)
-1. **हेरो सेक्शन में तुरंत बुकिंग**: "Book Instant Care" पर क्लिक करके 4-स्टेप बुकिंग पूरी करें।
-2. **लाइव ट्रैकिंग देखें**: बुकिंग कन्फर्म होते ही लाइव मैप, 14 मिनट ईटीए, और केयरटेकर का फोटो/विवरण दिखेगा।
-3. **कैलकुलेटर चलाकर दिखाएं**: 7 दिन या 30 दिन का स्लाइडर हिलाएं और डिस्काउंट सेविंग्स दिखाएं।
-4. **पेशेंट पोर्टल में वाइटल्स जोड़ें**: `➕ Log New Vitals` पर क्लिक करके मरीज का नया बीपी और शुगर रिकॉर्ड करें।
-5. **हिंदी बटन दबाएं**: ऊपर 'हिंदी' बटन दबाकर दिखाएं कि कैसे बुजुर्ग और आम लोग भी इसे आसानी से समझ सकते हैं।
+## 💡 Demo Walkthrough Guide (For Clients & Evaluators)
+
+1. **Test the Instant Booking Wizard**: Click **"Book Instant Care"** in the navigation header or hero section. Complete the 4 steps and click "Confirm Booking".
+2. **Watch the Live Tracking Simulator**: Upon booking, observe the animated dispatch progress, live countdown timer, interactive route map, security OTP, and caregiver call/WhatsApp action buttons.
+3. **Experiment with the Cost Calculator**: Scroll to the Calculator section, toggle between 12-hour and 24-hour shifts, slide the days slider from 1 to 30 days, and observe dynamic discount calculations.
+4. **Log Real-Time Patient Vitals**: Scroll to the Patient Portal section, click **"➕ Log New Vitals"**, enter new BP or oxygen values, and observe the vitals history table update immediately.
+5. **Switch Language to Hindi**: Click the **"हिंदी"** button in the header to demonstrate localized accessibility for Indian households.
