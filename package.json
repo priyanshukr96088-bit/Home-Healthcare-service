@@ -1,0 +1,19 @@
+{
+  "name": "home-healthcare-service",
+  "version": "1.0.0",
+  "description": "Instant Doorstep Home Healthcare Service - Nurses, Caretakers & Physiotherapists",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "healthcare",
+    "home-care",
+    "nursing",
+    "caretaker",
+    "physiotherapy",
+    "telehealth"
+  ],
+  "author": "CareAtHome Team",
+  "license": "MIT"
+}
