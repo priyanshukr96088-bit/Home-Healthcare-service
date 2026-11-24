@@ -7,7 +7,7 @@ const doc = new PDFDocument({
   autoFirstPage: false
 });
 
-const stream = fs.createWriteStream('CareAtHome_Pitch_Deck.pdf');
+const stream = fs.createWriteStream('Navjevan_Pitch_Deck.pdf');
 doc.pipe(stream);
 
 // Global Colors
@@ -50,7 +50,7 @@ function drawHeader(num, category, title, subtitle) {
   // Footer bar
   doc.rect(50, 505, 860, 1).fill(C.border);
   doc.fillColor(C.textMuted).fontSize(8.5).font('Helvetica')
-     .text('CareAtHome  |  Confidential Pitch Deck  |  https://home-healthcare-service.vercel.app/', 50, 514);
+     .text('Navjevan  |  Confidential Pitch Deck  |  https://home-healthcare-service.vercel.app/', 50, 514);
   doc.fillColor(C.tealPrimary).fontSize(8.5).font('Helvetica-Bold')
      .text(`Slide ${num} of 10`, 800, 514, { width: 110, align: 'right' });
 }
@@ -71,7 +71,7 @@ doc.fillColor(C.tealLight).fontSize(9).font('Helvetica-Bold')
 
 // Main Title
 doc.fillColor('#FFFFFF').fontSize(44).font('Helvetica-Bold')
-   .text('CareAtHome', 60, 115);
+   .text('Navjevan', 60, 115);
 
 // Tagline
 doc.fillColor(C.tealLight).fontSize(16).font('Helvetica-Bold')
@@ -82,7 +82,7 @@ doc.roundedRect(60, 220, 840, 150, 12).fill(C.slateDark);
 doc.fillColor(C.amber).fontSize(11).font('Helvetica-Bold')
    .text('WHAT WE DO:', 85, 240);
 doc.fillColor('#E2E8F0').fontSize(11.5).font('Helvetica')
-   .text('CareAtHome connects patients who cannot travel to hospitals with background-verified Nurses, compassionate Caretakers, and certified Physiotherapists. We bridge the critical gap between hospital discharge and full home recovery through instant hyper-local dispatch, transparent pricing, and live digital vitals monitoring.', 85, 265, { width: 790, lineGap: 6 });
+   .text('Navjevan connects patients who cannot travel to hospitals with background-verified Nurses, compassionate Caretakers, and certified Physiotherapists. We bridge the critical gap between hospital discharge and full home recovery through instant hyper-local dispatch, transparent pricing, and live digital vitals monitoring.', 85, 265, { width: 790, lineGap: 6 });
 
 // 3 Core Pills
 const pills = [
@@ -332,9 +332,9 @@ drivers.forEach((d, idx) => {
 // ==========================================
 doc.addPage();
 doc.rect(0, 0, 960, 540).fill(C.bgLight);
-drawHeader(6, 'Competitor Analysis', 'How CareAtHome Outperforms Existing Alternatives', 'Comprehensive comparison across speed, trust, transparency, and clinical standards:');
+drawHeader(6, 'Competitor Analysis', 'How Navjevan Outperforms Existing Alternatives', 'Comprehensive comparison across speed, trust, transparency, and clinical standards:');
 
-const compHeaders = ['Feature', 'CareAtHome (Us)', 'Legacy Players (Portea)', 'Maid / Servant Agencies', 'Hospital OPD Visits'];
+const compHeaders = ['Feature', 'Navjevan (Us)', 'Legacy Players (Portea)', 'Maid / Servant Agencies', 'Hospital OPD Visits'];
 const compRows = [
   ['Arrival Speed', '⚡ 30-45 Mins (Instant)', '24-48 Hours Lead Time', '1-3 Days Unpredictable', 'Exhausting Commute'],
   ['Police & Skill Check', '✓ 100% Background Check', 'Partial Verification', '✗ 0% Medical Training', '✓ Hospital Staff'],
@@ -519,11 +519,11 @@ valMetrics.forEach((v, idx) => {
 // 2 Right Testimonials
 const testims = [
   {
-    quote: '“My 72-year-old father was discharged after hip surgery. Traveling to clinics for daily IV antibiotics was agonizing. Sister Sunita from CareAtHome arrived within 30 minutes, dressed his wound with sterile gloves, and monitored his vitals. This service saved us hours of traffic.”',
+    quote: '“My 72-year-old father was discharged after hip surgery. Traveling to clinics for daily IV antibiotics was agonizing. Sister Sunita from Navjevan arrived within 30 minutes, dressed his wound with sterile gloves, and monitored his vitals. This service saved us hours of traffic.”',
     author: '— Family of Ramesh Chandra (Age 68), Sector 62'
   },
   {
-    quote: '“I work 10 hours a day and was worried sick about my aging mother living alone. The CareAtHome attendant assists her with daily sponge baths and medicine. The live vitals tracker gives me peace of mind on my mobile.”',
+    quote: '“I work 10 hours a day and was worried sick about my aging mother living alone. The Navjevan attendant assists her with daily sponge baths and medicine. The live vitals tracker gives me peace of mind on my mobile.”',
     author: '— Dr. Rahul Sharma (Son & Software Architect)'
   }
 ];
@@ -611,7 +611,7 @@ doc.end();
 stream.on('finish', () => {
   console.log(`\n======================================================`);
   console.log(`🎉 PDF Pitch Deck Generated Successfully!`);
-  console.log(`📁 File Saved: CareAtHome_Pitch_Deck.pdf`);
-  console.log(`📊 Size: ${fs.statSync('CareAtHome_Pitch_Deck.pdf').size} bytes`);
+  console.log(`📁 File Saved: Navjevan_Pitch_Deck.pdf`);
+  console.log(`📊 Size: ${fs.statSync('Navjevan_Pitch_Deck.pdf').size} bytes`);
   console.log(`======================================================\n`);
 });

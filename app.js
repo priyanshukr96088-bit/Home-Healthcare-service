@@ -1,5 +1,5 @@
 /**
- * CareAtHome - Interactive Prototype Application Logic
+ * Navjevan - Interactive Prototype Application Logic
  * Instant Home HealthCare Service (Nurses, Caretakers, Physiotherapists)
  */
 
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // If no bookings exist, insert a realistic default demo booking
   if (state.activeBookings.length === 0) {
     const demoBooking = {
-      id: 'CAH-92841',
+      id: 'NJ-92841',
       serviceType: 'nursing',
       procedureName: 'IV Drip & Post-Op Dressing',
       patientName: 'Ramesh Chandra (Age 68)',
@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Save & Load Bookings in LocalStorage
 function saveBookings() {
   try {
-    localStorage.setItem('cah_bookings', JSON.stringify(state.activeBookings));
+    localStorage.setItem('navjevan_bookings', JSON.stringify(state.activeBookings));
   } catch (e) {
     console.error('Failed to save to localStorage', e);
   }
@@ -185,7 +185,7 @@ function saveBookings() {
 
 function loadSavedBookings() {
   try {
-    const data = localStorage.getItem('cah_bookings');
+    const data = localStorage.getItem('navjevan_bookings');
     if (data) {
       state.activeBookings = JSON.parse(data);
     }
@@ -598,7 +598,7 @@ function confirmBooking() {
   const caregiver = caregiversData.find(c => c.id === selectedCgId) || caregiversData[0];
   const paymentMethod = document.querySelector('input[name="pay_method"]:checked')?.value || 'Cash on Visit';
 
-  const randomBookingId = `CAH-${Math.floor(10000 + Math.random() * 90000)}`;
+  const randomBookingId = `NJ-${Math.floor(10000 + Math.random() * 90000)}`;
   const randomOtp = `${Math.floor(1000 + Math.random() * 9000)}`;
 
   const newBooking = {
@@ -782,7 +782,7 @@ function renderTrackingModalContent(b) {
           <svg class="w-3.5 h-3.5 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
           Call Specialist
         </a>
-        <a href="https://wa.me/919876543210?text=Hello%20CareAtHome,%20inquiring%20about%20booking%20${b.id}" target="_blank" class="flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-2 px-3 rounded-xl text-xs transition-colors shadow-sm">
+        <a href="https://wa.me/919876543210?text=Hello%20Navjevan,%20inquiring%20about%20booking%20${b.id}" target="_blank" class="flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-2 px-3 rounded-xl text-xs transition-colors shadow-sm">
           <span>💬 WhatsApp Chat</span>
         </a>
       </div>

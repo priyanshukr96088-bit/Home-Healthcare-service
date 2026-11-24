@@ -1,4 +1,4 @@
-# 🏥 CareAtHome - Instant Doorstep Healthcare & Caregiving Platform
+# 🏥 Navjevan - Instant Doorstep Healthcare & Caregiving Platform
 > **Certified Nurses, Experienced Caretakers & Licensed Physiotherapists — Delivered to Your Doorstep within 30-45 Minutes.**
 
 ---
@@ -12,8 +12,8 @@ When patients are frail, elderly, bedridden, recovering from major surgery, or r
 * Managing daily hygiene, mobility, and dignity for bedridden elderly family members at home.
 * Ensuring consistent physiotherapy sessions without the exhausting commute for patients with mobility impairments.
 
-### The CareAtHome Solution
-**CareAtHome** bridges this healthcare access gap by providing **on-demand, instant doorstep delivery of certified clinical and caregiving professionals**:
+### The Navjevan Solution
+**Navjevan** bridges this healthcare access gap by providing **on-demand, instant doorstep delivery of certified clinical and caregiving professionals**:
 1. **Professional Nurses**: For sterile clinical procedures (injections, IV saline infusions, post-op dressings, catheter care, 12h/24h ICU at home).
 2. **Compassionate Caretakers & Attendants**: For daily hygiene assistance (sponge baths, diaper changes, wheelchair mobility, feeding, dementia care).
 3. **Licensed Physiotherapists**: For home-based stroke rehabilitation, orthopedic therapy (knee & back pain), and mobility restoration using portable electrotherapy equipment (TENS/IFT).
